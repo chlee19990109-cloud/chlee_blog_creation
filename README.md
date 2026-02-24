@@ -61,7 +61,8 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```bash
 npm run dev
 ```
-브라우저에서 [http://localhost:3000](http://localhost:3000) (또는 설정한 로컬 도메인)에 접속하여 블로그를 확인합니다.
+브라우저에서 [http://localhost:3000](http://localhost:3000) (기본값) 접속 단계를 수행하거나, 
+로컬 도메인 설정을 추가하신 경우 전용 도메인인 **`http://chlee_createblog:3000`** 에 접속하여 블로그를 확인합니다.
 
 ---
 
