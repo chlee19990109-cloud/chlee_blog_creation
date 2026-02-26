@@ -66,8 +66,8 @@ npm install
 프로젝트 최상위 루트 디렉토리에 `.env.local` 파일을 생성합니다.
 대시보드의 **Project Settings > API** 메뉴로 이동하여 `URL` 값과 `anon` (public) 키 정보를 가져와 다음과 같이 채워 넣습니다.
 ```env
-NEXT_PUBLIC_SUPABASE_URL=당신의_supabase_project_url (예: https://abcdefghijklm.supabase.co)
-NEXT_PUBLIC_SUPABASE_ANON_KEY=당신의_supabase_anon_key
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url (예: https://abcdefghijklm.supabase.co)
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 ### 4. Supabase 스키마 마이그레이션 (동기화)
