@@ -3,7 +3,7 @@
 
 현대적인 웹 기술 스택인 Next.js와 Supabase를 활용하여 구축된 개인 블로그 및 게시물 공유 플랫폼입니다. 깔끔한 UI와 풍부한 텍스트 에디터, 다크 모드, 카테고리 필터 기능을 제공합니다.
 
-🔗 **[블로그 보러가기](https://chlee-blog-creation.vercel.app/)**
+🔗 **[Live Demo 보러가기](https://chlee-blog-creation.vercel.app/)**
 
 ---
 
