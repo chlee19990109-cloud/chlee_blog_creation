@@ -60,11 +60,11 @@ npm install
 
 ### 2. Supabase 프로젝트 초기 구성
 1. **프로젝트 생성**: [Supabase](https://supabase.com/) 회원가입 후 대시보드에서 `New Project`를 생성합니다. 데이터베이스의 반응 속도를 위해 `Region` 설정 시 지연 시간이 비교적 짧은 **`Northeast Asia (Seoul)`** 을 권장합니다. 초기 비밀번호는 복사하여 잘 보관합니다.
-2. **이메일 인증 옵션 해제 (로컬 테스트용)**: 가입 테스트 편의를 위해 대시보드 메뉴 사이드바의 **Authentication > Providers > Email**을 클릭하고, **Confirm Email** 활성 토글 옵션을 끄고 저장합니다.
+2. **이메일 인증 옵션 해제 (로컬 테스트용)**: 가입 테스트 편의를 위해 대시보드 메뉴 사이드바의 **Authentication → Providers → Email**을 클릭하고, **Confirm Email** 활성 토글 옵션을 끄고 저장합니다.
 
 ### 3. Supabase 환경 변수 (.env.local) 등록
 프로젝트 최상위 루트 디렉토리에 `.env.local` 파일을 생성합니다.
-대시보드의 **Project Settings > API** 메뉴로 이동하여 `URL` 값과 `anon` (public) 키 정보를 가져와 다음과 같이 채워 넣습니다.
+대시보드의 **Project Settings → API** 메뉴로 이동하여 `URL` 값과 `anon` (public) 키 정보를 가져와 다음과 같이 채워 넣습니다.
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url (예: https://abcdefghijklm.supabase.co)
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
