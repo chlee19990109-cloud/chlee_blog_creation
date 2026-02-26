@@ -107,4 +107,4 @@ npm run dev
 
 > ⚠️ **중요 확인 사항**
 > Vercel에서 제공한 배포 도메인(예: `https://chlee-blog-creation.vercel.app/`)을 복사한 뒤,
-> **Supabase Dashboard > Authentication > URL Configuration > Site URL 및 Redirect URLs**에 꼭 추가해주세요. 이 단계가 누락되면 배포 환경에서 로그인이 정상적으로 작동하지 않습니다.
+> **Supabase Dashboard > Authentication → URL Configuration → Site URL 및 Redirect URLs**에 꼭 추가해주세요. 이 단계가 누락되면 배포 환경에서 로그인이 정상적으로 작동하지 않습니다.
